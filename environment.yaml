@@ -1,0 +1,16 @@
+name: llm-flight-bot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - python-dotenv
+  - requests
+  - jupyterlab
+  - pip:
+    - openai
+    - ollama
+    - beautifulsoup4
+    - gradio
+    - inspect
